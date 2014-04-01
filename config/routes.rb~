@@ -1,5 +1,5 @@
 FinalProj::Application.routes.draw do
-
+  get "/home"
   get "users/profile"
   get "users/new"
   match '/signup',  to: 'users#new',            via: 'get'
