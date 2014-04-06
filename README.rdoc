@@ -1,4 +1,24 @@
 == README
+Title: Computer Science Mentorship Website
+
+Team Members: Jessica Lynch, Noah Dillon, Andrew Gordon
+
+Project Description:  This website will be a website that provides social networking as well as mentor for young, aspiring
+computer science enthusiasts.  They will be able to create profiles and connect with one another to find events involving
+programming, for example a hackathon or lecture, with the additional functionality of being able to find a mentor.  A
+mentor is a user of the site that is more knowledgeable or accomplished than the 'mentee' are and will be there to provide 
+special advice to their mentees on whatever project they are working on.  This will be available to all users of the site;
+for example, a high school student might request help from a college student in the school of computer science, and that 
+same college student may seek help from someone with a job in the programming industry in whatever field they aspire to 
+rise into.  No one is limited to one mentor.
+
+Models, Views, Controllers:
+Users: This Model will be for profiles.  There will be a New.html view for new users and a profile page view for your
+personal page.  The purpose of this is to have space in the database for each user's personal information such as name,
+location, area of expertise, etc.  This controller will provide functionality to create new users as well as edit existing
+information.  
+
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
